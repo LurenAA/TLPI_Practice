@@ -9,7 +9,10 @@
               "-g",
               "-o",
               "a.out",
-              "3/test_glibc_version.c",
+              "lib/error_handle.c",
+              "4/file_hole.c",
+              "-Ilib",
+              "-ansi",
               "/home/lurenaa/libuv-1.x/out/Debug/libuv.a",
               "-lpthread"
           ],

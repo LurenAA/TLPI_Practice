@@ -5,6 +5,8 @@
     "errno.h": "c",
     "uv.h": "c",
     "curr_time.h": "c",
-    "tlpi_hdr.h": "c"
+    "tlpi_hdr.h": "c",
+    "libc-version.h": "c",
+    "features.h": "c"
   }
 }

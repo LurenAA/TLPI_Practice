@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "-g",
+              "-o",
+              "a.out",
+              "3/test_glibc_version.c",
+              "/home/lurenaa/libuv-1.x/out/Debug/libuv.a",
+              "-lpthread"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      }
+  ]
+}

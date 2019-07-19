@@ -7,6 +7,9 @@
     "curr_time.h": "c",
     "tlpi_hdr.h": "c",
     "libc-version.h": "c",
-    "features.h": "c"
+    "features.h": "c",
+    "tlpi_include.h": "c",
+    "error_handle.h": "c",
+    "stat.h": "c"
   }
 }

@@ -10,11 +10,13 @@
               "-o",
               "a.out",
               "lib/error_handle.c",
-              "4/file_hole.c",
+              "lib/get_num.c",
+              "8/traverse_shadow.c",
               "-Ilib",
-              "-ansi",
+              "-std=c99",
               "/home/lurenaa/libuv-1.x/out/Debug/libuv.a",
-              "-lpthread"
+              "-lpthread",
+              "-lcrypt"
           ],
           "group": {
               "kind": "build",

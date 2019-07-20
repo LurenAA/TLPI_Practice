@@ -9,7 +9,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/a.out",
-      "args": ["cat.c", "sleep"],
+      "args": ["test.c", "test2.c"],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
       "environment": [],

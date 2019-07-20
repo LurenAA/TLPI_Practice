@@ -31,6 +31,7 @@ errorExit(const char* format, ...) {
   errorInfoShow(format, vaList);
   
   va_end(vaList);
+  exit(EXIT_FAILURE);
 }
 
 void 

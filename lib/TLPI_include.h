@@ -1,7 +1,7 @@
 #ifndef __TLPI_INC_H_
 #define __TLPI_INC_H_
-#define _GNU_SOURCE
 
+#define _GNU_SOURCE
 
 #include "error_handle.h"
 #include "get_num.h"
@@ -14,5 +14,8 @@
 #include <grp.h>
 #include <stdbool.h>
 #include <shadow.h>
+#include <sys/time.h>
+#include <sys/times.h>
+#include <time.h>
 
 #endif

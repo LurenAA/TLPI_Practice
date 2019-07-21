@@ -11,7 +11,7 @@
               "a.out",
               "lib/error_handle.c",
               "lib/get_num.c",
-              "15/test_stat.c",
+              "20/sig_set.c",
               "-Ilib",
               "-std=c99",
               "/home/lurenaa/libuv-1.x/out/Debug/libuv.a",

@@ -3,7 +3,6 @@
         {
             "name": "Win32",
             "includePath": [
-                "/home/lurenaa/libuv-1.x/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [

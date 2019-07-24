@@ -2,6 +2,7 @@
 #define __TLPI_INC_H_
 
 #define _GNU_SOURCE
+#define _POSIX_C_SOURCE 199309L
 
 #include "error_handle.h"
 #include "get_num.h"

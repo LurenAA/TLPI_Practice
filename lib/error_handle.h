@@ -3,7 +3,7 @@
 
 #include <stdarg.h>
 #include <stdio.h>
-#include <ename.c.inc>
+#include "ename.c.inc"
 #include <errno.h>
 #include <string.h>
 #include <unistd.h>

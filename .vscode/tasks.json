@@ -1,22 +1,11 @@
 {
   "version": "2.0.0",
   "tasks": [
-      {
+    {
           "label": "build",
           "type": "shell",
-          "command": "g++",
-          "args": [
-              "-g",
-              "-o",
-              "a.out",
-              "lib/error_handle.c",
-              "lib/get_num.c",
-              "23/test_settimer.c",
-              "-Ilib",
-              "-std=c99",
-              "-lpthread",
-              "-lcrypt"
-          ],
+          "command": "make",
+          "args": [],
           "group": {
               "kind": "build",
               "isDefault": true

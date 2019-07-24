@@ -6,6 +6,7 @@
 
 #include "error_handle.h"
 #include "get_num.h"
+#include <sys/wait.h>
 #include <dirent.h>
 #include <sys/types.h>
 #include <sys/stat.h>

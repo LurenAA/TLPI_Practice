@@ -9,7 +9,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/a.out",
-      "args": ["test.c", "dialout"],
+      "args": ["1", "10"],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
       "environment": [],

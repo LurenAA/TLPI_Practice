@@ -10,6 +10,7 @@
     "features.h": "c",
     "tlpi_include.h": "c",
     "error_handle.h": "c",
-    "stat.h": "c"
+    "stat.h": "c",
+    "*.inc": "c"
   }
 }
